@@ -1,0 +1,34 @@
+score tracking
+score board on right side
+score board when finished
+
+fix title
+
+sound
+
+show parallel plates
+electric field vectors
+equipotential lines
+
+electric field changes on collision???
+
+voltage vs field control
+signs of charges
+fix charge/field display/units
+variable display should be formatted better
+
+"physics mode" - customize all dem variables
+
+responsive design lol
+
+make collision w/ aditya look like a collision
+
+avoid adityas overlapping?
+
+avoid console hacking
+
+background => illusion of motion
+spin for kenjis/adityas? - change direction on collision
+
+adityas light up when collided with
+wilkes light up when collided with

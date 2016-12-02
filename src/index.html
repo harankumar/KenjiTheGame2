@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<canvas id="canvas" height="800" width="1000"></canvas>
+
+<div id="bot_right_box"
+     style="position: fixed; right: 80px; bottom: 25px; width: 180px; text-align: left;">
+    <div>
+        Use the arrow keys to move. <br>
+        Press space to pause.
+    </div>
+</div>
+
+<div id="physstuff"
+     style="position: fixed; right: 80px; top: 25px; width: 250px; text-align: left;">
+    <div style="text-decoration: underline">Stats for Nerds</div>
+    <br>
+    <div>
+        <b>Score:</b> <span id="points">0</span> points
+    </div>
+    <div>
+        <b>Framerate:</b> <span id="fr">0</span>fps
+    </div>
+    <div>
+        <b>Elapsed Seconds:</b> <span id="t">0</span>seconds
+    </div>
+    <br>
+    <div>
+        <b>Electric Field Strength: </b>
+        <!--TODO: Units-->
+        <span id="E">0</span>
+    </div>
+    <div>
+        <b>Position: </b> (<span id="x">0</span>m, <span id="y">0</span>m)
+    </div>
+    <div>
+        <b>Mass:</b> <span id="mass">100</span>kg
+    </div>
+    <div>
+        <b>Radius:</b> <span id="radius">30</span>m
+    </div>
+    <div>
+        <b>X-Velocity:</b> <span id="xvelocity">0</span>m/s
+    </div>
+    <div>
+        <b>Y-Velocity:</b> <span id="yvelocity">0</span>m/s
+    </div>
+    <div>
+        <b>X-Momentum:</b> <span id="xmomentum">0</span>Nm
+    </div>
+    <div>
+        <b>Y-Momentum:</b> <span id="ymomentum">0</span>Nm
+    </div>
+    <div>
+        <b> X-Acceleration:</b> <span id="xacceleration">0</span>m/s^2
+    </div>
+    <div>
+        <b> Y-Acceleration:</b> <span id="yacceleration">0</span>m/s^2
+    </div>
+    <div>
+        <b> X-Force:</b> <span id="xforce">0</span>N
+    </div>
+    <div>
+        <b> Y-Force:</b> <span id="yforce">0</span>N
+    </div>
+    <div>
+        <b> Potential Energy:</b> <span id="pe">0</span>MJ
+    </div>
+    <div>
+        <b> X-Kinetic Energy:</b> <span id="xke">0</span>MJ
+    </div>
+    <div>
+        <b> Y-Kinetic Energy:</b> <span id="yke">0</span>MJ
+    </div>
+    <br>
+    <br>
+    <!--<div id="highscores">-->
+        <!--<div style="text-decoration: underline">High Scores</div>-->
+
+    <!--</div>-->
+</div>
+
+<script src="createjs.js">
+</script>
+<script src="store.js"></script>
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
